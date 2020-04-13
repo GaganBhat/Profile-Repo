@@ -11,25 +11,22 @@ function App() {
       <head>
         <title>Gagan Bhat</title>
       </head>
-      <body style={{ backgroundColor: "#ffa600"}}>
-      <div style={{ backgroundColor: "#ffa600"}} id="container">
+      <body style={{ backgroundColor: "#673ab7"}}>
+      <div style={{ backgroundColor: "#673ab7"}} id="container">
             <div id="navi">
               <Particles
                 params={{
                   particles: {
                     number: {
-                      value: 50
+                      value: 80
                     },
                     size: {
                       value: 3
                     },
-                    color: {
-                      value: "#000000"
-                    }
                   },
                   background: {
                     color: {
-                      value: "#ffa600"
+                      value: "#1834b6"
                     }
                   },
                   interactivity: {
@@ -39,13 +36,17 @@ function App() {
                         mode: "repulse"
                       }
                     }
+                  },
+                  line_linked: {
+                    color: "#ffffff",
+                    opacity: 0.4
                   }
                 }}
               >
               </Particles>
               {/* <FloorAnimation color="#ffa600" mode={0} /> */}
             </div>
-            <div className="centered">Bruh</div>
+            <h1 className="centered">Gagan Bhat</h1>
           </div>
         </body>
       </html>
