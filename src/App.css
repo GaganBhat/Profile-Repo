@@ -54,25 +54,32 @@ div {
   transform: translate(-50%, -50%);
 }
 
+.mainflex{
+  display: flex;
+}
+
 .lefticon {
   position: absolute;
-  top: 51%;
+  top: 52%;
   left: 46%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 .centericon {
   position: absolute;
-  top: 51%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 .righticon {
   position: absolute;
-  top: 51%;
+  top: 52%;
   left: 54%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 #container {

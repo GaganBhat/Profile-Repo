@@ -6,8 +6,24 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faMailchimp,
     faGithub,
-    faInstagram
+    faLinkedin,
   } from "@fortawesome/free-brands-svg-icons";
+
+  import {
+    faEnvelope
+  } from "@fortawesome/free-regular-svg-icons"
+
+  function handleLinkedin(){
+    window.open("https://www.linkedin.com/in/gagan-bhat/", '_blank');
+  }
+
+  function handleGithub() {
+    window.open("https://github.com/GaganBhat", '_blank');
+  }
+
+  function handleMail() {
+    window.open("mailto:gaganbhat6@gmail.com", '_blank');
+  }
 
 function App() {
   return (
@@ -24,9 +40,11 @@ function App() {
       <body style={{ backgroundColor: "#673ab7"}}>
       <div style={{ backgroundColor: "#673ab7"}} id="container">
             <div id="navi">
-            <FontAwesomeIcon className="lefticon" icon={faInstagram} color="#ffffff" size="2x"/>
-            <FontAwesomeIcon className="centericon" icon={faGithub} color="#ffffff" size="2x"/>
-            <FontAwesomeIcon className="righticon" icon={faMailchimp} color="#ffffff" size="2x"/>
+
+              <FontAwesomeIcon className="lefticon" icon={faLinkedin} color="#ffffff" size="2x" onClick={handleLinkedin}/>
+              <FontAwesomeIcon className="centericon" icon={faGithub} color="#ffffff" size="2x" onClick={handleGithub}/>
+              <FontAwesomeIcon className="righticon" icon={faEnvelope} color="#ffffff" size="2x"onClick={handleMail}/>
+            
               <Particles
                 params={{
                   particles: {
@@ -65,6 +83,9 @@ function App() {
       </html>
 
   );
+  
 }
+
+
 
 export default App;
