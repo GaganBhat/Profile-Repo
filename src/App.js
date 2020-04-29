@@ -74,13 +74,13 @@ function App() {
                 <h1 className="centered">Gagan Bhat</h1>            
                 <ul id="nav-links">
                   <li>
-                    <FontAwesomeIcon icon={faLinkedin} color="#ffffff" size="2x" onClick={handleLinkedin}/>
+                    <FontAwesomeIcon className="icon" icon={faLinkedin} color="#ffffff" size="2x" onClick={handleLinkedin}/>
                   </li>
                   <li>
-                    <FontAwesomeIcon icon={faGithub} color="#ffffff" size="2x" onClick={handleGithub}/>
+                    <FontAwesomeIcon className="icon" icon={faGithub} color="#ffffff" size="2x" onClick={handleGithub}/>
                   </li>
                   <li>
-                    <FontAwesomeIcon icon={faEnvelope} color="#ffffff" size="2x"onClick={handleMail}/>
+                    <FontAwesomeIcon className="icon" icon={faEnvelope} color="#ffffff" size="2x"onClick={handleMail}/>
                   </li>
                 </ul>
                 
