@@ -56,7 +56,39 @@ div {
 
 .mainflex{
   display: flex;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0 0%;
+	max-width: 1280px;
+  background-color: transparent;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999999;
+  width: 100%;
 }
+
+#nav-links {
+  margin: auto;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0 20px;
+  height: 50px;
+  white-space: nowrap;
+}
+
+.social-icon {
+  display: inline-block; 
+  margin: 0 10px;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
 
 .lefticon {
   position: absolute;

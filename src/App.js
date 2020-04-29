@@ -40,10 +40,6 @@ function App() {
       <body style={{ backgroundColor: "#673ab7"}}>
       <div style={{ backgroundColor: "#673ab7"}} id="container">
             <div id="navi">
-
-              <FontAwesomeIcon className="lefticon" icon={faLinkedin} color="#ffffff" size="2x" onClick={handleLinkedin}/>
-              <FontAwesomeIcon className="centericon" icon={faGithub} color="#ffffff" size="2x" onClick={handleGithub}/>
-              <FontAwesomeIcon className="righticon" icon={faEnvelope} color="#ffffff" size="2x"onClick={handleMail}/>
             
               <Particles
                 params={{
@@ -75,7 +71,21 @@ function App() {
                 }}
               >
               </Particles>
-              {/* <FloorAnimation color="#ffa600" mode={0} /> */}
+              
+              <div className="mainflex">
+                <ul id="nav-links">
+                  <li>
+                    <FontAwesomeIcon icon={faLinkedin} color="#ffffff" size="2x" onClick={handleLinkedin}/>
+                  </li>
+                  <li>
+                    <FontAwesomeIcon icon={faGithub} color="#ffffff" size="2x" onClick={handleGithub}/>
+                  </li>
+                  <li>
+                    <FontAwesomeIcon icon={faEnvelope} color="#ffffff" size="2x"onClick={handleMail}/>
+                  </li>
+                </ul>
+                
+              </div>
             </div>
             <h1 className="centered">Gagan Bhat</h1>            
           </div>
