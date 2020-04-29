@@ -73,6 +73,7 @@ function App() {
               </Particles>
               
               <div className="mainflex">
+                <h1 className="centered">Gagan Bhat</h1>            
                 <ul id="nav-links">
                   <li>
                     <FontAwesomeIcon icon={faLinkedin} color="#ffffff" size="2x" onClick={handleLinkedin}/>
@@ -87,7 +88,6 @@ function App() {
                 
               </div>
             </div>
-            <h1 className="centered">Gagan Bhat</h1>            
           </div>
         </body>
       </html>
