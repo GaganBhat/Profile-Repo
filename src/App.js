@@ -37,24 +37,22 @@ function App() {
               crossorigin="anonymous">
         </link>
       </head>
-      <body style={{ backgroundColor: "#673ab7"}}>
-      <div style={{ backgroundColor: "#673ab7"}} id="container">
+      <body>
+      <div id="container">
             <div id="navi">
             
               <Particles
                 params={{
                   particles: {
                     number: {
-                      value: 80
+                      value: 40
                     },
                     size: {
                       value: 3
                     },
                   },
                   background: {
-                    color: {
-                      value: "#1834b6"
-                    }
+                    image: "linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%)"
                   },
                   interactivity: {
                     events: {
@@ -66,7 +64,7 @@ function App() {
                   },
                   line_linked: {
                     color: "#ffffff",
-                    opacity: 0.4
+                    opacity: 0.1
                   }
                 }}
               >
