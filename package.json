@@ -15,6 +15,7 @@
     "@wufe/floor-animation": "^1.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
     "react-particles-js": "^3.0.3",
     "react-scripts": "3.4.1"
   },

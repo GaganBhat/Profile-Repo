@@ -7,29 +7,34 @@ import {
     faGithub,
     faLinkedin,
   } from "@fortawesome/free-brands-svg-icons";
-
-  import {
+import {
     faEnvelope
   } from "@fortawesome/free-regular-svg-icons"
 
-  function handleLinkedin(){
-    window.open("https://www.linkedin.com/in/gagan-bhat/", '_blank');
-  }
+import { Helmet } from 'react-helmet'
 
-  function handleGithub() {
-    window.open("https://github.com/GaganBhat", '_blank');
-  }
+function handleLinkedin(){
+  window.open("https://www.linkedin.com/in/gagan-bhat/", '_blank');
+}
 
-  function handleMail() {
-    window.open("mailto:gaganbhat6@gmail.com", '_blank');
-  }
+function handleGithub() {
+  window.open("https://github.com/GaganBhat", '_blank');
+}
+
+function handleMail() {
+  window.open("mailto:gaganbhat6@gmail.com", '_blank');
+}
+
+const TITLE = "Gagan Bhat"
 
 function App() {
   return (
     
     <html>
       <head>
-        <title>Gagan Bhat</title>
+        <Helmet>
+            <title>{ TITLE }</title>
+        </Helmet>
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
               rel="stylesheet" 
               integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
@@ -91,7 +96,6 @@ function App() {
   );
   
 }
-
 
 
 export default App;
