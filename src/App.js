@@ -4,7 +4,6 @@ import './App.css';
 import Particles from 'react-particles-js';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faMailchimp,
     faGithub,
     faLinkedin,
   } from "@fortawesome/free-brands-svg-icons";
