@@ -36,7 +36,6 @@ jobs:
     - run: git config --global user.name "GaganBhat"
     - run: npm ci
     - run: npm install
-
     - run: rm -rf node_modules/gh-pages/.cache
 
     - uses: peaceiris/actions-gh-pages@v3
