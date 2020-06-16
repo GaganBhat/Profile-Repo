@@ -1,10 +1,10 @@
-##<center>Profile Website</center>
+##<p align="center">Profile Website</p>
 
-<center>Simplistic profile website made in react-js with pretty particle backdrop.</center>
+<p align="center">Simplistic profile website made in react-js with pretty particle backdrop.</p>
 
 ![](https://user-images.githubusercontent.com/25236969/84832303-a269a380-aff2-11ea-82eb-46cef3f39442.png)
 
-#####<center>https://gaganbhat.me/</center>
+#####<p align="center">https://gaganbhat.me/</p>
 
 ## Available Scripts
 
