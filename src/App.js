@@ -28,6 +28,8 @@ function handleMail() {
 const TITLE = "Gagan Bhat"
 
 function App() {
+  let numParticles = 18;
+
   return (
     <div className="App">
       <div id="particles">
@@ -37,7 +39,7 @@ function App() {
               opacity: 1,
               color: "#ed7e48",
               number: {
-                value: 100
+                value: numParticles
               },
               size: {
                 value: 5
