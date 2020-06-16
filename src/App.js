@@ -25,7 +25,7 @@ function handleMail() {
   window.open("mailto:gaganbhat6@gmail.com", '_blank');
 }
 
-const TITLE = "Gagan Bhat"
+const TITLE = "FireBase Test"
 
 function App() {
   let numParticles = 18;
