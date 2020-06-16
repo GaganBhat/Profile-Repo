@@ -36,12 +36,12 @@ jobs:
     - run: git config --global user.name "GaganBhat"
     - run: npm ci
     - run: npm install
-    - run: rm -rf node_modules/gh-pages/.cache
+    - run: npm run deploy
 
-    - uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        personal_token: ${{ secrets.PERSONAL_TOKEN }}
-        publish_dir: ./build
-        cname: gaganbhat.me
+    # - uses: peaceiris/actions-gh-pages@v3
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+    #     personal_token: ${{ secrets.PERSONAL_TOKEN }}
+    #     publish_dir: ./build
+    #     cname: gaganbhat.me
  
