@@ -64,7 +64,7 @@ function App() {
         </Particles>
       </div>
       <div className="mainflex">
-        <h1 className="centered" style={{ top: '-55px', color: '#ffffff' }}>Firebase Test</h1>
+        <h1 className="centered" style={{ top: '-55px', color: '#ffffff' }}>Gagan Bhat</h1>
         <ul id="nav-links">
           <li>
             <FontAwesomeIcon className="icon" cursor="grab" icon={faLinkedin} color="#ffffff" size="2x" onClick={handleLinkedin} />
