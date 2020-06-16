@@ -1,6 +1,9 @@
+![Node.js CI](https://github.com/GaganBhat/profile_repo/workflows/Node.js%20CI/badge.svg)
+
 <h1 align="center" >Profile Website</h1>
 
 <p align="center">Simplistic profile website made in react-js with pretty particle backdrop.</p>
+
 
 ![](https://user-images.githubusercontent.com/25236969/84832303-a269a380-aff2-11ea-82eb-46cef3f39442.png)
 
