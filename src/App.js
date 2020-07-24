@@ -18,44 +18,50 @@ function handleMail () {
   window.open('mailto:gaganbhat6@gmail.com', '_blank')
 }
 
+
 const TITLE = 'Gagan Bhat'
 
 function App () {
   let numParticles = 18
 
+  const particleConfig = () => {
+    return (
+      <Particles
+        params={{
+          particles: {
+            opacity: 1,
+            color: '#ed7e48',
+            number: {
+              value: numParticles,
+            },
+            size: {
+              value: 5,
+            },
+            line_linked: {
+              distance: 200,
+            },
+          },
+          background: {
+            image: 'linear-gradient(160deg, #d53369, #cbad6d)',
+          },
+          interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: 'repulse',
+              },
+            },
+          },
+        }}
+      />
+    )
+  }
+
   return (
     <div className="App">
+      <NavBar/>
       <div id="particles">
-        <NavBar/>
-
-        <Particles
-          params={{
-            particles: {
-              opacity: 1,
-              color: '#ed7e48',
-              number: {
-                value: numParticles,
-              },
-              size: {
-                value: 5,
-              },
-              line_linked: {
-                distance: 200,
-              },
-            },
-            background: {
-              image: 'linear-gradient(160deg, #d53369, #cbad6d)',
-            },
-            interactivity: {
-              events: {
-                onhover: {
-                  enable: true,
-                  mode: 'repulse',
-                },
-              },
-            },
-          }}
-        />
+        {particleConfig()}
       </div>
       <div className="mainflex">
         <h1 className="centered"
