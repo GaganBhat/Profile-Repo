@@ -1,10 +1,10 @@
 import React from 'react'
-import './App.css'
+import './Home.css'
 import Particles from 'react-particles-js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-import NavBar from './components/NavBar'
+import NavBar from '../NavBar'
 
 function handleLinkedin () {
   window.open('https://www.linkedin.com/in/gagan-bhat/', '_blank')
@@ -17,9 +17,6 @@ function handleGithub () {
 function handleMail () {
   window.open('mailto:gaganbhat6@gmail.com', '_blank')
 }
-
-
-const TITLE = 'Gagan Bhat'
 
 const Home = () => {
   let numParticles = 18
