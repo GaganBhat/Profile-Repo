@@ -21,7 +21,7 @@ function handleMail () {
 
 const TITLE = 'Gagan Bhat'
 
-function App () {
+const Home = () => {
   let numParticles = 18
 
   const particleConfig = () => {
@@ -89,4 +89,4 @@ function App () {
   )
 }
 
-export default App
+export default Home
