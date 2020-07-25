@@ -13,10 +13,7 @@ const NavBar = () => {
             <Link color="inherit" href="/" >
               Home
             </Link>
-            <Link
-              color="inherit"
-              href="/projects"
-            >
+            <Link color="inherit" href="/projects">
               Projects
             </Link>
           </Breadcrumbs>
